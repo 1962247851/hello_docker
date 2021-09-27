@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://master:3306/hello_docker
+    username: root
+    password: root
+  redis:
+    host: master
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9260
